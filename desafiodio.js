@@ -1,12 +1,13 @@
 let heroi = 'Daath'
 let xp = 0
 let nivel = ''
-let partidas = 350
+let partidasGanhas = 25 // ganha 50 pontos de xp
 
-for(let i = 0; i <= partidas; i++){
+for(let i = 1; i <= partidasGanhas; i++){
     xp += 50
     console.log("O jogador ganhou uma partida ranqueda e obteve " + xp + " pontos")
 }
+
 
 if(xp < 1000){
     nivel = 'Ferro'
